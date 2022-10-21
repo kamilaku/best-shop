@@ -1,0 +1,77 @@
+:root {
+    --color-primary: #08a6e4;
+    --color-primary-shadow: rgba(7, 172, 230, 0.16);
+    --color-redish: #fb3b64;
+    --color-green: #55dfb4;
+    --color-black: #000000;
+    --color-white: #ffffff;
+    --color-grey: #a5a5a5;
+    --color-light-grey: #f7f7f7;
+    --button-radius: 35px;
+    --font-raleway: "Raleway", sans-serif;
+    --font-open-sans: "Open Sans", sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: var(--font-open-sans);
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+  .container {
+    width: 1352px;
+    margin: 0 auto;
+  }
+
+  .header {
+    height: 70px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  }
+
+  .header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .logo {
+    font-family: var(--font-raleway);
+    font-size: 32px;
+    font-weight: 300;
+    color: var(--color-primary);
+  }
+
+  .header-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-link {
+    padding-top: 28px 18px 22px;;
+    color: black;
+    font-weight: bold;
+    font-size: 11px;
+    text-transform: uppercase;
+    border-bottom: 4px solid transparent;
+    letter-spacing: 3.5px;
+  }
+
+  .nav-link:hover {
+    color: var(--color-black);
+    border-color: var(--color-primary);
+  }
+
+  .nav-element {
+    padding: 0 26px;
+  }
+
+
+
